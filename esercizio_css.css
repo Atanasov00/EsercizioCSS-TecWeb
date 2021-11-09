@@ -5,8 +5,9 @@
 
 header{
     background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
-    margin: 5px 5px 0px;
-    padding: 30px 0px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0px;
     border-bottom: solid;
     border-color: purple;
 }
