@@ -17,3 +17,37 @@ header > h1{
     text-align: right;
     font-size: xx-large;
 }
+
+body > nav{
+    margin-right: 20px;
+    width: 15%;
+    /*height: 450px;*/
+    float: left;
+}
+
+body > aside{
+    margin-left: 250px;
+    width: 20%;
+    /*margin-right: 700px;*/
+}
+
+body > section{
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+body > section > p{
+    text-align: left;
+    color: black;
+}
+
+body > nav > ul{
+    text-align: left;
+    line-height: 2em;
+    list-style-type: square;
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    border-top: solid;
+    border-bottom: solid;
+    border-color: purple;
+}
