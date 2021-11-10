@@ -76,5 +76,5 @@ footer{
 footer > p{
     text-align: center;
     color: purple;    
-    width: 80%;
+    font-size: 80%;
 }
