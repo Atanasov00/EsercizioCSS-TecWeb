@@ -7,13 +7,17 @@ header, nav{
     background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
     width: 100%;
     margin-top: 10px;
-    padding: 10px 0px;
+    padding: 20px 0px;
     border-bottom: solid purple;
 }
 
 header > h1{
     color:purple;
     text-align: right;
+}
+
+nav, aside, section{
+    display: inline-block;
 }
 
 body > nav{
@@ -29,13 +33,18 @@ body > nav > ul > li > a:hover{
     font-weight: bold;
 }
 
+body > nav > ul{
+    line-height: 2em;
+    list-style-type: square;
+    text-align: left;
+}
+
 body > nav:hover{
     background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
 }
 
 body > aside{
     width: 20%;
-    display: inline-block;
     margin-top: 15px;
     margin-left: 40px;
 }
@@ -55,17 +64,11 @@ body > section > p{
     color: black;
 }
 
-body > nav > ul{
-    text-align: left;
-    line-height: 2em;
-    list-style-type: square;
-}
-
 footer{
     background-image: linear-gradient(to top left, pink, yellow, pink, purple);
     border-top: solid purple;
     width: 100%;
-    margin-top: 270px;
+    margin-top: 230px;
     padding: 10px 0px;
     clear: both;
 }
