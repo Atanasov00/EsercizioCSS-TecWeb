@@ -3,37 +3,50 @@
     font-size: 100%;
 }
 
-header{
+header, nav{
     background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
     width: 100%;
     margin-top: 10px;
     padding: 10px 0px;
-    border-bottom: solid;
-    border-color: purple;
+    border-bottom: solid purple;
 }
 
 header > h1{
     color:purple;
     text-align: right;
-    font-size: xx-large;
 }
 
 body > nav{
-    margin-right: 20px;
     width: 15%;
-    /*height: 450px;*/
     float: left;
+    border-top: solid purple;
+}
+
+body > nav > ul > li > a:hover{
+    background-color: purple;
+    color:white;
+    padding: 1%;
+    font-weight: bold;
+}
+
+body > nav:hover{
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
 }
 
 body > aside{
-    margin-left: 250px;
     width: 20%;
-    /*margin-right: 700px;*/
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+body > aside > p{
+    color: purple;
 }
 
 body > section{
+    margin-top: 15px;
     width: 50%;
-    height: 500px;
     float: right;
 }
 
@@ -46,8 +59,19 @@ body > nav > ul{
     text-align: left;
     line-height: 2em;
     list-style-type: square;
-    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
-    border-top: solid;
-    border-bottom: solid;
-    border-color: purple;
+}
+
+footer{
+    background-image: linear-gradient(to top left, pink, yellow, pink, purple);
+    border-top: solid purple;
+    width: 100%;
+    margin-top: 270px;
+    padding: 10px 0px;
+    clear: both;
+}
+
+footer > p{
+    text-align: center;
+    color: purple;    
+    width: 80%;
 }
